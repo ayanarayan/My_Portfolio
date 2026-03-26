@@ -1,5 +1,4 @@
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -63,6 +62,18 @@ const Work = () => {
               category: "AI Chatbot",
               tools: "HTML, CSS, Python, AWS",
               description: "Deployed an AI-powered chatbot automating appointment management, reducing scheduling time by 70%, with secure session-based flow."
+            },
+            {
+              name: "QuantumLend",
+              category: "DeFi Web Application",
+              tools: "Next.js, TypeScript, CSS, Solidity, Hardhat",
+              description: "Created a full-stack DeFi app for secure P2P Ethereum loans, processing $500K+ in transactions, improving smart contract efficiency by 40%, and boosting engagement via responsive UI."
+            },
+            {
+              name: "FitFlow",
+              category: "AI Fitness Application",
+              tools: "Python, Gradio, ReportLab, OpenAI API",
+              description: "Developed an AI-powered fitness web app generating personalized adaptive diet and workout plans. Features automated PDF report generation and a real-time AI chatbot for workout guidance."
             }
           ].map((project, index) => (
             <div className="work-box" key={index}>
@@ -79,7 +90,6 @@ const Work = () => {
                 <p>{project.tools}</p>
                 <p style={{ marginTop: '10px', fontSize: '14px' }}>{project.description}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt={project.name} />
             </div>
           ))}
         </div>
