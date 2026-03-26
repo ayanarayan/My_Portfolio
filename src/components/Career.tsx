@@ -15,43 +15,25 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Full Stack Developer Intern</h4>
+                <h5>Nepbyte</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Developed responsive web applications using React, Node.js, and Express. Designed and optimized RESTful APIs, improving data retrieval speed by 20%, and integrated MySQL & MongoDB databases.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
-              </div>
-              <h3>20XX</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>B.Tech in Computer Science</h4>
+                <h5>Vellore Institute of Technology</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Current CGPA: 7.74. Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Computer Networks, DBMS. Final year student.
             </p>
           </div>
         </div>
