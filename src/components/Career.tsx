@@ -33,7 +33,7 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Current CGPA: 7.74. Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Computer Networks, DBMS. Final year student.
+              Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Computer Networks, DBMS. Final year student.
             </p>
           </div>
         </div>
