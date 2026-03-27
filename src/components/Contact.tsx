@@ -40,7 +40,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://x.com/ayanarayan"
+              href="https://x.com/_ayanarayan"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
